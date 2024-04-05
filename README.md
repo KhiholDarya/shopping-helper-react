@@ -51,7 +51,7 @@ clicking the left mouse button should remove an item from the list (the same beh
 For the task you will need some style modification for the elemen, unfortunately, as part of our classes so far, we have not dealt with styling, so the ready-made example is below
 
 
-"<li style={{"text-decoration": `${product.category === "dairy" ? "line-through" : "auto" }`}}> Cheese </li>"
+"<li style={{"text-decoration": `${product.category === "dairy" ? "line-through" : "auto" }`}}>Cheese</li>"
 
 
 Copy the above style, i.e. style={{ ... }}, paste it into your application where the shopping list is displayed and check whether dairy products have been crossed out, if so, you can start the actual part of the task.
