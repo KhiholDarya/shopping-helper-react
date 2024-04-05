@@ -48,8 +48,8 @@ After completing task 1, clicking on a product from the shopping list (right col
 right-clicking on an element causes it to be crossed out
 right-clicking on a crossed-out element again causes it to become non-crossthrough again
 clicking the left mouse button should remove an item from the list (the same behavior as the right button in task 1)
-For the task you will need some style modification for the element
+For the task you will need some style modification for the elemen, unfortunately, as part of our classes so far, we have not dealt with styling, so the ready-made example is below
 
-, unfortunately, as part of our classes so far, we have not dealt with styling, so the ready-made example is below
-<li style={{"text-decoration": `${product.category === "dairy" ? "line-through" : "auto" }`}}> Ser </li>
+<li style={{"text-decoration": `${product.category === "dairy" ? "line-through" : "auto" }`}}> Cheese </li>
+
 Copy the above style, i.e. style={{ ... }}, paste it into your application where the shopping list is displayed and check whether dairy products have been crossed out, if so, you can start the actual part of the task.
