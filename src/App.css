@@ -1,0 +1,13 @@
+.app-container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+ }
+ 
+ .column {
+	min-width: 48%; /* Adjust the width as needed */
+	border: 1px solid #ccc;
+	padding: 16px;
+	margin: 8px;
+ }
